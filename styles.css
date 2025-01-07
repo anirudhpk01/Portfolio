@@ -9,7 +9,7 @@ agent user styles.
 
 h1, h2, h3, h4, p, ul, ol, blockquote {
 	margin: 0;
-	padding: 0;
+	padding: 1;
 }
 
 nav ul, nav ol {
