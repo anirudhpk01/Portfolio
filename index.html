@@ -1,0 +1,201 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+
+	<!--/ /---- Put your name in the title of the page ----/ /-->
+	<title>Anirudh P K</title>
+	
+	<!--/ /-------- Normalize CSS --------/ /-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+	
+	<!--/ /-------- Google Fonts --------/ /-->
+	<!-- Add a link to google fonts here if you want them -->
+	
+	<!--/ /-------- Font Awesome --------/ /-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<!--/ /-------- Your Styles --------/ /-->
+	<link href="styles.css" rel="stylesheet">
+
+	<!--/ /---Put a short description for your site below. 20 words or less---/ /-->
+	<meta description="A short description for your site...">
+
+	<!--/ /-------- Needed For Mobile Devices --------/ /-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+	
+    <!-- ------------------------------------------------------
+    The site is designed to be mobile first. The wrapper elements
+	are in place for when you get to desktop size to contain the 
+	content.
+    ------------------------------------------------------- -->
+    
+	<header class="primary">
+        <div class="wrapper">
+            
+			<div class="logo-container">
+				<h1>Anirudh<br>P K<br>Portfolio</h1>
+
+				<!-- ------------------------------------------------------
+				Note that the image of the logo is linked to the home page.
+				------------------------------------------------------- -->
+				<a href="index.html"><img style="height: 200px;width: 200px;" src="https://images.fineartamerica.com/images/artworkimages/medium/3/anirudh-tintodesigns-transparent.png" alt="logo image" id="logo"></a>
+			</div>
+            
+            
+			<!-- ------------------------------------------------------
+            The navigation here is linking to the sections further down
+            the page.
+            ------------------------------------------------------- -->
+			<nav id="mainnav">
+            	<ul>
+                	<li><a href="#work">Work</a></li>
+                    <li><a href="#about-contact">About</a></li>
+                    <li><a href="#about-contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+        
+    </header>
+    
+    <!-- ------------------------------------------------------
+    This is the work section, which has two parts: the featured
+	section and the projects section.
+    ------------------------------------------------------- -->
+    
+    <section id="work">
+   		<div class="wrapper">
+        	<h2>Check Out My Best Projects</h2>
+        	<section class="featured">
+                <article>
+                	<!-- ------------------------------------------------------
+                    Link the image below to the detail page for this project.
+                    Use the page.html file to make that page. Also link the 
+                    anchor tag in the paragraph below to the same page.
+                    ------------------------------------------------------- -->
+                	<a href="#"><img src="https://private-user-images.githubusercontent.com/141937748/386947961-536cda04-6318-4013-9a82-3be42e638f34.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzYyNDczMzEsIm5iZiI6MTczNjI0NzAzMSwicGF0aCI6Ii8xNDE5Mzc3NDgvMzg2OTQ3OTYxLTUzNmNkYTA0LTYzMTgtNDAxMy05YTgyLTNiZTQyZTYzOGYzNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMTA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDEwN1QxMDUwMzFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lYzIyMWU3M2E1MjJmYjM0MzJiNjdiNjEzMTgwZmFmYTQzMDU4YTk5NjMzODNlZmVjYzlhNjg3YjIzMDFkYjMxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.E0zeUHkPkT0GfWAdcLiAupqOuNqufO8uJN9BvrpZ0C0" alt="image"></a>
+                </article>
+                
+                <article>
+                	<h3>EmoStream: Real-Time Emoji Sentiment System</h3>
+                    <h4>Challenge Statement</h4>
+                    <p>Designed a scalable event-driven architecture to process real-time emoji reactions using Kafka for queuing and
+						Spark for micro-batch aggregation. Implemented a Pub-Sub model for live delivery, ensuring high-concurrency
+						support and low latency. Conducted extensive testing to handle thousands of reactions per second efficiently</p> <p><a href="https://github.com/anirudhpk01/bd-project">Find out how I solved this problem</a></p> 
+                </article>
+            </section> <!-- end row -->
+            
+            
+            <!-- ------------------------------------------------------
+            The projects section is for additional projects. I put four in
+			here, but it could be more, or less. You just have to pay
+			attention to how they wrap, and how many you want per row.
+            
+            Note that each image should be linked to the page with more
+            detailed information about that project. You can use a copy of
+            page.html to create those pages.
+            ------------------------------------------------------- -->
+            
+            <section class="projects">
+            
+            	<article>
+                	<h3>Workflo</h3>
+                	<a href="#"><img src="https://dummyimage.com/340x200/c4c4c4/fff&text=Workflo+Manegement" alt="image"></a>
+                    <p><strong>Role:</strong> Developer</p>
+                    <p><strong>Description:</strong>A corporate workflow management system enforcing SCRUM and Agile principles for collaborative and
+						proactive task management and recording</p>
+                </article>
+                
+                <article>
+                	<h3>Traffic Predictor Arima</h3>
+                	<a href="#"><img src="https://dummyimage.com/340x200/c4c4c4/fff&text=Traffic+Predictor" alt="image"></a>
+                    <p><strong>Role:</strong> Developer</p>
+                    <p><strong>Description:</strong> Created a full-stack web app that utilizes IoT data and ML models to predict harmful algal blooms and
+						evaluate water quality, including potability and risk reports.</p>
+                </article>
+                
+                <article>
+                	<h3>Water Body Conservation by detecting possible algal bloom using ML</h3>
+                	<a href="#"><img src="https://dummyimage.com/340x200/c4c4c4/fff&text=Water+Conservation" alt="image"></a>
+                    <p><strong>Role:</strong> Developer</p>
+                    <p><strong>Description:</strong>Developed a full-stack app using IoT and ML to predict algal blooms and assess water quality</p>
+                </article>
+				
+				<article>
+                	<h3>PaymentApp</h3>
+                	<a href="#"><img src="https://dummyimage.com/340x200/c4c4c4/fff&text=Payment+App" alt="image"></a>
+                    <p><strong>Role:</strong> Developer</p>
+                    <p><strong>Description:</strong> Website for ppl to handle ecash</p>
+                </article>
+            
+            </section><!-- end row -->
+            
+        </div> <!-- end work wrapper -->
+    </section>
+    
+    
+    <!-- ------------------------------------------------------
+    This is the about and contact section. The links in the main
+    navigation link to this section. 
+    ------------------------------------------------------- -->
+    
+    <section id="about-contact" class="secondary">
+   		<div class="wrapper">
+        	
+			<div class="profile-photo">
+            	<img src="https://sfqoiwmaxoxpaibcploq.supabase.co/storage/v1/object/public/imgs2/anirudh_ai_logo.jpeg" alt="image">
+            </div>
+			
+            <article>
+				<h2>About Me</h2>
+				<p>Anirudh PK, 20, A Tech and Design enthusiast. Web developer, OOPs nerd and tech geek extraordinare. Love system design. Love art and sports like cricket and football. Living a fulfilling life by being ever excited to learn the best of tech and knowledge. Glad to meet you!</p>
+				<h3>Skills</h3>
+				<p>I am particularly good at Javascript and Object Oriened Programming  and really enjoy coding and drawing. I am currently learning AIML and DSA and I'm very exited about contributin to projects and companies in the future.</p>
+			</article> 
+                
+			<article>
+				<h2>Contact Me!</h2>
+				<p>I am currently looking for opportunities to work on a team at a software company. Please feel free to contact me by phone, email or through the usual social media channels.</p>
+
+				<!-- ------------------------------------------------------
+				Be sure to encode your email address at this site, so you 
+				don't get spam. http://wbwip.com/wbw/emailencoder.html
+				------------------------------------------------------- -->
+
+				<p><i class="fa fa-envelope" aria-hidden="true"></i> <a href="mailto:&#097;&#110;&#105;&#114;&#117;&#100;&#104;&#112;&#107;&#111;&#102;&#102;&#105;&#099;&#105;&#097;&#108;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"</a><br>
+				<i class="fa fa-phone" aria-hidden="true"></i> 9008058527</p>
+
+				<!-- ------------------------------------------------------
+				You can see here that I have included font-awesome. It is used
+				to create the icons above and below. You can go to the font-awesome
+				website to see the available icons and swap some out.
+				------------------------------------------------------- -->
+
+				<p class="social">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a> 
+					<a href="#"><i class="fab fa-twitter-square"></i></a>
+				</p>
+			</article>
+                   
+        </div>
+    </section>
+    
+    
+    <!-- ------------------------------------------------------
+    The footer section is not doing much on this page. Add more
+    content if necessary.
+    ------------------------------------------------------- -->
+    <footer class="primary">
+    	<div class="wrapper">
+        	<p class="centered">&copy; 2024 all rights reserved</p>
+        </div>
+    </footer>
+
+</body>
+</html>
